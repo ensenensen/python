@@ -16,6 +16,7 @@ def input_select():
 def list_numbers():
     for num in numbers:
         print(num, end = " ")
+    print()
 
 def change_number():
     num = int(input('수정할 번호 : '))
